@@ -15,15 +15,8 @@ public class Main {
         danhSach.add(new NhanVienParttime("1239","hoatam",26,93736,"tamhoa1234",10));
 
       for (NhanVien nv : danhSach) {
-            if (nv instanceof NhanVienFulltime) {
-                System.out.println("Nhan vien fulltime: " + nv.toString());
-                System.out.println("Luong: " + ((NhanVienFulltime) nv).tinhLuong());
-            } else if (nv instanceof NhanVienParttime) {
-                System.out.println("Nhan vien partime: " + nv.toString());
-                System.out.println("Luong: " + ((NhanVienParttime) nv).tinhLuong());
-            }
-        }
-        System.out.println("Danh sach nhan vien co luong thap hon luong trung binh la: ");
+          System.out.println(nv);
+      }
       }
 
     }
